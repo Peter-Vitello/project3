@@ -1,3 +1,6 @@
-#treetoclick{
-    text-align: center;
+.shopitem{
+    border: 4px solid;
+}
+html {
+    background-color: green;
 }
