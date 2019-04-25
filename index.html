@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Money Grows on Trees!</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- JavaScript  
+  -------------------------------------------------- -->
+  <script src="js/main.js" defer></script>
+  <script src="js/classes.js"></script>
+  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/moneytree.jpg">
+
+</head>
+<body onload="startGame()">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="eight columns">
+        <h1 id="moneyamount">Money: $0</h1>
+      </div>
+      <div class="eight columns">
+        <div id="treetoclick" onclick="treeClick(1)" class="unselectable">
+          <img src="images/moneytree.png" id="moneytree">
+          <!---<button onclick="treeClick(1)">Click Me!</button>--->
+          <div id="floatdiv" class="unselectable">+1</div>
+        </div>
+    </div>
+    <div class="four columns"></div>
+    <h1>Upgrades:</h1>
+    <div class="four columns">
+      <div id="shop">
+        <div class="shopitem" onclick="buyFertilizer()">
+          <h3>Fertilizer</h3>
+          <h4 id="fertilizerCost">Cost: $10</h4>
+          <h6 id="description">+1 money/second</h6>
+          <h5 id="fertilizers">Count: 0</h5>  
+        </div>
+        <div class="shopitem" onclick="buyCryptoCurrency()">
+          <h3>Crypto Currency</h3>
+          <h4 id="cryptoCost">Cost: $20</h4>
+          <h6 id="description">+2 money/second</h6>
+          <h5 id="cryptos">Count: 0</h5>
+        </div>
+        <div class="shopitem" onclick="buyHedgeTrimmer()">
+          <h3>Hedge Trimmer</h3>
+          <h4 id="hedgeCost">Cost: $30</h4>
+          <h6 id="description">+3 money/second</h6>
+          <h5 id="hedges">Count: 0</h5>
+        </div>
+        <div class="shopitem" onclick="buyMoneySlide()">
+          <h3>Money Slide</h3>
+          <h4 id="slideCost">Cost: $40</h4>
+          <h6 id="description">+4 money/second</h6>
+          <h5 id="slides">Count: 0</h5>
+        </div>
+        <div class="shopitem" onclick="buyGardener()">
+          <h3>Gardener</h3>
+          <h4 id="gardenerCost">Cost: $50</h4>
+          <h6 id="description">+5 money/second</h6>
+          <h5 id="gardens">Count: 0</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+<footer>
+  <button onclick="save()">Save</button>
+  <button onclick="load()">Load</button>
+  <i style="font-size:24px" class="fa">&#xf028;</i></span><input id="volumeslider" type="range" min="0" max="100" value="100" step="1">
+</footer>
+</html>

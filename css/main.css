@@ -1,0 +1,60 @@
+/*Shop CSS*/
+.shopitem{
+    border: 4px solid;
+    max-height: 200px;
+    width: 400px;
+    font-size: 10px;
+    background-color:green;
+}
+.shopitem h3, h4{
+    max-width:200px;
+    font-size: 25px;
+    display:inline-block;
+}
+.shopitem h3{
+    margin:0 50px 0 0 ;
+    text-shadow: 2px 2px white;
+}
+#shop{
+    max-height: 450px;
+    max-width: 500px;
+    width: 450px;
+    overflow:auto;
+}
+/*Money CSS*/
+#moneyamount{
+    text-align:center;
+}
+#treetoclick{
+    text-align: center;
+}
+#floatdiv{
+    display: none;
+    position: absolute;
+    color: red;
+}
+#moneytree{
+    height: 500px;
+}
+/*src: https://stackoverflow.com/questions/69430/is-there-a-way-to-make-text-unselectable-on-an-html-page*/
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+ 
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+#volumeslider{
+    width: 100px;
+    margin-bottom: 0px;
+    margin: 0 10px;
+}
+html {
+    background-color: green;
+}
