@@ -6,7 +6,7 @@ Peter Vitello <br />
 Tony Weng
 
 ## Description
-our project is a cookie clicker type game that works fully
+An incremental clicker game that is focused on leisure, sit back and watch your money grow.
 
 ## Why We Deserve our full credit 
 we deserve full credit because we meet all the requrements and made our own program
@@ -16,14 +16,14 @@ we deserve full credit because we meet all the requrements and made our own prog
 ### Peter
 - Made the upgrades for the the game that allows the player to be idle and make money
 - Worked on the CSS and HTML for our project 
-- made the art for the game 
-- did the documentation
+- Made the art for the game 
+- Set up the documentation
 
 ### Tony
-- worked on the counter for each of the upgrades so money is added over time
-- mad the scrollbar for the upgrades 
-- did all of the sound and made the slider for the sound volume
-- made the save and load feature for the game
+- Worked game loop and update method allowing for per second additions
+- Created original concept and design of website
+- Added game sound and volume control slider 
+- Added save and load functionaility that uses localStorage
 
 ## What grade would we choice 
 We feel that our work is worth a 95%  
@@ -42,7 +42,7 @@ https://fonts.google.com/
 
 
 ## What Went Wrong
-- Our timing was not what it should have been we didn't finish everything until the last minute 
 - We didn’t get our minigame done at all so we had to scrap it  
+-Original concepts/games inside the game had to be scrapped due to time constraints 
 
 
