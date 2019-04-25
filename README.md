@@ -1,5 +1,5 @@
 # Money Grows on Trees
-our game using DOM
+Our game using DOM
 
 ## Maintainers
 Peter Vitello <br />
@@ -17,6 +17,7 @@ we deserve full credit because we meet all the requrements and made our own prog
 - Made the upgrades for the the game that allows the player to be idle and make money
 - Worked on the CSS and HTML for our project 
 - Made the art for the game 
+- Added fonts
 - Set up the documentation
 
 ### Tony
@@ -24,6 +25,7 @@ we deserve full credit because we meet all the requrements and made our own prog
 - Created original concept and design of website
 - Added game sound and volume control slider 
 - Added save and load functionaility that uses localStorage
+- Added a small +1 that shows up everytime the user clicks at the currentmouseposition 
 
 ## What grade would we choice 
 We feel that our work is worth a 95%  
@@ -43,6 +45,6 @@ https://fonts.google.com/
 
 ## What Went Wrong
 - We didn’t get our minigame done at all so we had to scrap it  
--Original concepts/games inside the game had to be scrapped due to time constraints 
+- Original concepts/games inside the game had to be scrapped due to time constraints 
 
 
