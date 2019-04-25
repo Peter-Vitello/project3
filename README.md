@@ -28,8 +28,8 @@ We feel that our work is worth a 95%
 
 ## Sources 
 https://www.w3schools.com <br />
-https://stackoverflow.com < br /> 
-https://www.pixilart.com/ < br />
+https://stackoverflow.com <br /> 
+https://www.pixilart.com/ <br />
 https://fonts.google.com/
 
 
